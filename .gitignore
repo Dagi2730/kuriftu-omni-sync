@@ -1,0 +1,6 @@
+node_modules/
+.venv/
+venv/
+ai-engine/venv/
+.env
+.env.local
