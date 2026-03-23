@@ -1,0 +1,2406 @@
+{
+  "resort_name": "Kuriftu Resort & Spa",
+  "location": "Bishoftu, Ethiopia",
+  "rooms": [
+    {
+      "id": 101,
+      "type": "Standard Room",
+      "view": "Courtyard",
+      "status": "available",
+      "price": 126,
+      "amenities": [
+        "WiFi",
+        "Mini-bar",
+        "Balcony"
+      ]
+    },
+    {
+      "id": 102,
+      "type": "Garden Room",
+      "view": "Garden",
+      "status": "available",
+      "price": 247,
+      "amenities": [
+        "AC",
+        "Balcony",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 103,
+      "type": "Garden Room",
+      "view": "Forest",
+      "status": "cleaning",
+      "price": 160,
+      "amenities": [
+        "Jacuzzi",
+        "AC"
+      ]
+    },
+    {
+      "id": 104,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "available",
+      "price": 273,
+      "amenities": [
+        "Mini-bar",
+        "AC",
+        "Balcony"
+      ]
+    },
+    {
+      "id": 105,
+      "type": "Presidential Suite",
+      "view": "Lake",
+      "status": "available",
+      "price": 569,
+      "amenities": [
+        "Mini-bar",
+        "Balcony",
+        "Jacuzzi",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 106,
+      "type": "Standard Room",
+      "view": "Courtyard",
+      "status": "available",
+      "price": 173,
+      "amenities": [
+        "Jacuzzi",
+        "AC",
+        "Mini-bar"
+      ]
+    },
+    {
+      "id": 107,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "cleaning",
+      "price": 372,
+      "amenities": [
+        "AC",
+        "Jacuzzi",
+        "Balcony",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 108,
+      "type": "Garden Room",
+      "view": "Garden",
+      "status": "available",
+      "price": 167,
+      "amenities": [
+        "Mini-bar",
+        "Jacuzzi",
+        "Balcony"
+      ]
+    },
+    {
+      "id": 109,
+      "type": "Presidential Suite",
+      "view": "Mountain",
+      "status": "available",
+      "price": 539,
+      "amenities": [
+        "Balcony",
+        "Jacuzzi",
+        "AC"
+      ]
+    },
+    {
+      "id": 110,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "available",
+      "price": 295,
+      "amenities": [
+        "Mini-bar",
+        "WiFi",
+        "AC",
+        "Balcony"
+      ]
+    },
+    {
+      "id": 111,
+      "type": "Standard Room",
+      "view": "Garden",
+      "status": "available",
+      "price": 100,
+      "amenities": [
+        "Mini-bar",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 112,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "maintenance",
+      "price": 317,
+      "amenities": [
+        "Jacuzzi",
+        "Balcony",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 113,
+      "type": "Presidential Suite",
+      "view": "Lake",
+      "status": "occupied",
+      "price": 445,
+      "amenities": [
+        "Balcony",
+        "AC",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 114,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "available",
+      "price": 394,
+      "amenities": [
+        "WiFi",
+        "AC",
+        "Jacuzzi",
+        "Balcony"
+      ]
+    },
+    {
+      "id": 115,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "available",
+      "price": 374,
+      "amenities": [
+        "Jacuzzi",
+        "Mini-bar"
+      ]
+    },
+    {
+      "id": 116,
+      "type": "Garden Room",
+      "view": "Forest",
+      "status": "available",
+      "price": 216,
+      "amenities": [
+        "WiFi",
+        "Balcony"
+      ]
+    },
+    {
+      "id": 117,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "available",
+      "price": 258,
+      "amenities": [
+        "Mini-bar",
+        "AC"
+      ]
+    },
+    {
+      "id": 118,
+      "type": "Standard Room",
+      "view": "Courtyard",
+      "status": "occupied",
+      "price": 148,
+      "amenities": [
+        "Mini-bar",
+        "Balcony",
+        "Jacuzzi",
+        "AC"
+      ]
+    },
+    {
+      "id": 119,
+      "type": "Standard Room",
+      "view": "Courtyard",
+      "status": "occupied",
+      "price": 162,
+      "amenities": [
+        "Balcony",
+        "WiFi",
+        "Mini-bar"
+      ]
+    },
+    {
+      "id": 120,
+      "type": "Standard Room",
+      "view": "Courtyard",
+      "status": "available",
+      "price": 122,
+      "amenities": [
+        "AC",
+        "WiFi",
+        "Jacuzzi",
+        "Balcony"
+      ]
+    },
+    {
+      "id": 121,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "cleaning",
+      "price": 399,
+      "amenities": [
+        "Balcony",
+        "WiFi",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 122,
+      "type": "Standard Room",
+      "view": "Courtyard",
+      "status": "maintenance",
+      "price": 113,
+      "amenities": [
+        "AC",
+        "WiFi",
+        "Jacuzzi",
+        "Balcony"
+      ]
+    },
+    {
+      "id": 123,
+      "type": "Garden Room",
+      "view": "Forest",
+      "status": "cleaning",
+      "price": 205,
+      "amenities": [
+        "Mini-bar",
+        "Jacuzzi",
+        "Balcony",
+        "AC"
+      ]
+    },
+    {
+      "id": 124,
+      "type": "Garden Room",
+      "view": "Forest",
+      "status": "cleaning",
+      "price": 238,
+      "amenities": [
+        "AC",
+        "WiFi",
+        "Jacuzzi",
+        "Mini-bar"
+      ]
+    },
+    {
+      "id": 125,
+      "type": "Standard Room",
+      "view": "Courtyard",
+      "status": "maintenance",
+      "price": 166,
+      "amenities": [
+        "WiFi",
+        "AC"
+      ]
+    },
+    {
+      "id": 126,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "available",
+      "price": 384,
+      "amenities": [
+        "Balcony",
+        "Jacuzzi",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 127,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "available",
+      "price": 381,
+      "amenities": [
+        "Jacuzzi",
+        "WiFi",
+        "Mini-bar",
+        "Balcony"
+      ]
+    },
+    {
+      "id": 128,
+      "type": "Garden Room",
+      "view": "Forest",
+      "status": "occupied",
+      "price": 181,
+      "amenities": [
+        "AC",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 129,
+      "type": "Standard Room",
+      "view": "Garden",
+      "status": "available",
+      "price": 141,
+      "amenities": [
+        "AC",
+        "Balcony",
+        "Mini-bar",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 130,
+      "type": "Standard Room",
+      "view": "Garden",
+      "status": "occupied",
+      "price": 103,
+      "amenities": [
+        "WiFi",
+        "Balcony",
+        "Jacuzzi",
+        "AC"
+      ]
+    },
+    {
+      "id": 131,
+      "type": "Garden Room",
+      "view": "Forest",
+      "status": "available",
+      "price": 150,
+      "amenities": [
+        "AC",
+        "Balcony"
+      ]
+    },
+    {
+      "id": 132,
+      "type": "Garden Room",
+      "view": "Forest",
+      "status": "cleaning",
+      "price": 230,
+      "amenities": [
+        "Jacuzzi",
+        "Mini-bar",
+        "AC",
+        "Balcony"
+      ]
+    },
+    {
+      "id": 133,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "available",
+      "price": 300,
+      "amenities": [
+        "Jacuzzi",
+        "Balcony",
+        "Mini-bar",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 134,
+      "type": "Garden Room",
+      "view": "Forest",
+      "status": "occupied",
+      "price": 225,
+      "amenities": [
+        "Mini-bar",
+        "Balcony",
+        "Jacuzzi",
+        "AC"
+      ]
+    },
+    {
+      "id": 135,
+      "type": "Standard Room",
+      "view": "Garden",
+      "status": "available",
+      "price": 153,
+      "amenities": [
+        "WiFi",
+        "Balcony",
+        "AC",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 136,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "available",
+      "price": 377,
+      "amenities": [
+        "AC",
+        "Mini-bar",
+        "Jacuzzi",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 137,
+      "type": "Garden Room",
+      "view": "Forest",
+      "status": "available",
+      "price": 240,
+      "amenities": [
+        "Jacuzzi",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 138,
+      "type": "Garden Room",
+      "view": "Forest",
+      "status": "available",
+      "price": 247,
+      "amenities": [
+        "Mini-bar",
+        "Balcony"
+      ]
+    },
+    {
+      "id": 139,
+      "type": "Garden Room",
+      "view": "Forest",
+      "status": "available",
+      "price": 160,
+      "amenities": [
+        "Jacuzzi",
+        "Mini-bar",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 140,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "cleaning",
+      "price": 300,
+      "amenities": [
+        "AC",
+        "WiFi",
+        "Balcony"
+      ]
+    },
+    {
+      "id": 141,
+      "type": "Garden Room",
+      "view": "Garden",
+      "status": "occupied",
+      "price": 190,
+      "amenities": [
+        "Mini-bar",
+        "AC",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 142,
+      "type": "Garden Room",
+      "view": "Forest",
+      "status": "available",
+      "price": 250,
+      "amenities": [
+        "AC",
+        "Jacuzzi",
+        "Mini-bar"
+      ]
+    },
+    {
+      "id": 143,
+      "type": "Garden Room",
+      "view": "Garden",
+      "status": "available",
+      "price": 157,
+      "amenities": [
+        "Mini-bar",
+        "AC",
+        "Balcony",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 144,
+      "type": "Garden Room",
+      "view": "Forest",
+      "status": "available",
+      "price": 161,
+      "amenities": [
+        "Jacuzzi",
+        "Mini-bar",
+        "AC"
+      ]
+    },
+    {
+      "id": 145,
+      "type": "Standard Room",
+      "view": "Garden",
+      "status": "available",
+      "price": 133,
+      "amenities": [
+        "WiFi",
+        "Jacuzzi",
+        "Balcony",
+        "Mini-bar"
+      ]
+    },
+    {
+      "id": 146,
+      "type": "Garden Room",
+      "view": "Forest",
+      "status": "available",
+      "price": 239,
+      "amenities": [
+        "WiFi",
+        "AC"
+      ]
+    },
+    {
+      "id": 147,
+      "type": "Garden Room",
+      "view": "Forest",
+      "status": "available",
+      "price": 206,
+      "amenities": [
+        "Balcony",
+        "Jacuzzi",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 148,
+      "type": "Garden Room",
+      "view": "Forest",
+      "status": "available",
+      "price": 227,
+      "amenities": [
+        "Jacuzzi",
+        "Balcony",
+        "AC",
+        "Mini-bar"
+      ]
+    },
+    {
+      "id": 149,
+      "type": "Standard Room",
+      "view": "Garden",
+      "status": "available",
+      "price": 141,
+      "amenities": [
+        "Mini-bar",
+        "AC"
+      ]
+    },
+    {
+      "id": 150,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "cleaning",
+      "price": 259,
+      "amenities": [
+        "Jacuzzi",
+        "AC",
+        "WiFi",
+        "Mini-bar"
+      ]
+    },
+    {
+      "id": 151,
+      "type": "Standard Room",
+      "view": "Courtyard",
+      "status": "cleaning",
+      "price": 173,
+      "amenities": [
+        "AC",
+        "Mini-bar",
+        "WiFi",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 152,
+      "type": "Standard Room",
+      "view": "Courtyard",
+      "status": "available",
+      "price": 142,
+      "amenities": [
+        "Balcony",
+        "Mini-bar",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 153,
+      "type": "Garden Room",
+      "view": "Forest",
+      "status": "available",
+      "price": 214,
+      "amenities": [
+        "WiFi",
+        "AC"
+      ]
+    },
+    {
+      "id": 154,
+      "type": "Presidential Suite",
+      "view": "Lake",
+      "status": "available",
+      "price": 474,
+      "amenities": [
+        "Mini-bar",
+        "Jacuzzi",
+        "AC"
+      ]
+    },
+    {
+      "id": 155,
+      "type": "Standard Room",
+      "view": "Courtyard",
+      "status": "occupied",
+      "price": 122,
+      "amenities": [
+        "WiFi",
+        "AC",
+        "Mini-bar"
+      ]
+    },
+    {
+      "id": 156,
+      "type": "Presidential Suite",
+      "view": "Mountain",
+      "status": "available",
+      "price": 424,
+      "amenities": [
+        "AC",
+        "Mini-bar"
+      ]
+    },
+    {
+      "id": 157,
+      "type": "Garden Room",
+      "view": "Garden",
+      "status": "available",
+      "price": 197,
+      "amenities": [
+        "Balcony",
+        "WiFi",
+        "AC",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 158,
+      "type": "Presidential Suite",
+      "view": "Mountain",
+      "status": "occupied",
+      "price": 538,
+      "amenities": [
+        "Jacuzzi",
+        "Balcony",
+        "AC"
+      ]
+    },
+    {
+      "id": 159,
+      "type": "Garden Room",
+      "view": "Forest",
+      "status": "occupied",
+      "price": 208,
+      "amenities": [
+        "Balcony",
+        "Jacuzzi",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 160,
+      "type": "Garden Room",
+      "view": "Garden",
+      "status": "maintenance",
+      "price": 157,
+      "amenities": [
+        "Jacuzzi",
+        "Mini-bar",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 161,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "occupied",
+      "price": 268,
+      "amenities": [
+        "Balcony",
+        "Mini-bar",
+        "AC"
+      ]
+    },
+    {
+      "id": 162,
+      "type": "Garden Room",
+      "view": "Forest",
+      "status": "available",
+      "price": 184,
+      "amenities": [
+        "Mini-bar",
+        "AC",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 163,
+      "type": "Presidential Suite",
+      "view": "Lake",
+      "status": "available",
+      "price": 416,
+      "amenities": [
+        "Mini-bar",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 164,
+      "type": "Presidential Suite",
+      "view": "Mountain",
+      "status": "available",
+      "price": 450,
+      "amenities": [
+        "WiFi",
+        "AC"
+      ]
+    },
+    {
+      "id": 165,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "occupied",
+      "price": 272,
+      "amenities": [
+        "Balcony",
+        "Jacuzzi",
+        "Mini-bar",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 166,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "available",
+      "price": 285,
+      "amenities": [
+        "Jacuzzi",
+        "Mini-bar",
+        "Balcony",
+        "AC"
+      ]
+    },
+    {
+      "id": 167,
+      "type": "Standard Room",
+      "view": "Courtyard",
+      "status": "available",
+      "price": 142,
+      "amenities": [
+        "Jacuzzi",
+        "Mini-bar",
+        "WiFi",
+        "AC"
+      ]
+    },
+    {
+      "id": 168,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "occupied",
+      "price": 379,
+      "amenities": [
+        "Mini-bar",
+        "AC"
+      ]
+    },
+    {
+      "id": 169,
+      "type": "Standard Room",
+      "view": "Garden",
+      "status": "available",
+      "price": 107,
+      "amenities": [
+        "Jacuzzi",
+        "AC",
+        "WiFi",
+        "Mini-bar"
+      ]
+    },
+    {
+      "id": 170,
+      "type": "Garden Room",
+      "view": "Forest",
+      "status": "available",
+      "price": 170,
+      "amenities": [
+        "AC",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 171,
+      "type": "Standard Room",
+      "view": "Courtyard",
+      "status": "available",
+      "price": 112,
+      "amenities": [
+        "WiFi",
+        "Balcony",
+        "Mini-bar",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 172,
+      "type": "Standard Room",
+      "view": "Courtyard",
+      "status": "occupied",
+      "price": 156,
+      "amenities": [
+        "Jacuzzi",
+        "AC"
+      ]
+    },
+    {
+      "id": 173,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "available",
+      "price": 280,
+      "amenities": [
+        "AC",
+        "Balcony",
+        "WiFi",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 174,
+      "type": "Garden Room",
+      "view": "Garden",
+      "status": "occupied",
+      "price": 247,
+      "amenities": [
+        "Mini-bar",
+        "Balcony",
+        "AC"
+      ]
+    },
+    {
+      "id": 175,
+      "type": "Presidential Suite",
+      "view": "Mountain",
+      "status": "occupied",
+      "price": 447,
+      "amenities": [
+        "Jacuzzi",
+        "Balcony"
+      ]
+    },
+    {
+      "id": 176,
+      "type": "Standard Room",
+      "view": "Courtyard",
+      "status": "available",
+      "price": 119,
+      "amenities": [
+        "Mini-bar",
+        "Balcony",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 177,
+      "type": "Presidential Suite",
+      "view": "Lake",
+      "status": "available",
+      "price": 561,
+      "amenities": [
+        "Jacuzzi",
+        "AC",
+        "Balcony"
+      ]
+    },
+    {
+      "id": 178,
+      "type": "Garden Room",
+      "view": "Garden",
+      "status": "occupied",
+      "price": 238,
+      "amenities": [
+        "AC",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 179,
+      "type": "Presidential Suite",
+      "view": "Mountain",
+      "status": "available",
+      "price": 524,
+      "amenities": [
+        "AC",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 180,
+      "type": "Presidential Suite",
+      "view": "Mountain",
+      "status": "available",
+      "price": 461,
+      "amenities": [
+        "AC",
+        "WiFi",
+        "Jacuzzi",
+        "Balcony"
+      ]
+    },
+    {
+      "id": 181,
+      "type": "Standard Room",
+      "view": "Garden",
+      "status": "available",
+      "price": 119,
+      "amenities": [
+        "Mini-bar",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 182,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "occupied",
+      "price": 297,
+      "amenities": [
+        "Balcony",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 183,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "available",
+      "price": 282,
+      "amenities": [
+        "WiFi",
+        "Mini-bar",
+        "Balcony"
+      ]
+    },
+    {
+      "id": 184,
+      "type": "Garden Room",
+      "view": "Garden",
+      "status": "available",
+      "price": 235,
+      "amenities": [
+        "Mini-bar",
+        "Balcony"
+      ]
+    },
+    {
+      "id": 185,
+      "type": "Standard Room",
+      "view": "Courtyard",
+      "status": "available",
+      "price": 151,
+      "amenities": [
+        "Balcony",
+        "WiFi",
+        "Mini-bar",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 186,
+      "type": "Standard Room",
+      "view": "Garden",
+      "status": "occupied",
+      "price": 158,
+      "amenities": [
+        "WiFi",
+        "Balcony",
+        "AC",
+        "Mini-bar"
+      ]
+    },
+    {
+      "id": 187,
+      "type": "Standard Room",
+      "view": "Garden",
+      "status": "cleaning",
+      "price": 124,
+      "amenities": [
+        "Jacuzzi",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 188,
+      "type": "Presidential Suite",
+      "view": "Mountain",
+      "status": "available",
+      "price": 467,
+      "amenities": [
+        "Jacuzzi",
+        "Mini-bar"
+      ]
+    },
+    {
+      "id": 189,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "available",
+      "price": 293,
+      "amenities": [
+        "AC",
+        "Mini-bar"
+      ]
+    },
+    {
+      "id": 190,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "available",
+      "price": 355,
+      "amenities": [
+        "Balcony",
+        "AC",
+        "WiFi",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 191,
+      "type": "Presidential Suite",
+      "view": "Mountain",
+      "status": "available",
+      "price": 538,
+      "amenities": [
+        "Mini-bar",
+        "Balcony",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 192,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "available",
+      "price": 301,
+      "amenities": [
+        "Mini-bar",
+        "Balcony",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 193,
+      "type": "Garden Room",
+      "view": "Forest",
+      "status": "maintenance",
+      "price": 230,
+      "amenities": [
+        "Mini-bar",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 194,
+      "type": "Garden Room",
+      "view": "Garden",
+      "status": "available",
+      "price": 173,
+      "amenities": [
+        "Balcony",
+        "Jacuzzi",
+        "AC"
+      ]
+    },
+    {
+      "id": 195,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "occupied",
+      "price": 326,
+      "amenities": [
+        "AC",
+        "Mini-bar",
+        "Balcony"
+      ]
+    },
+    {
+      "id": 196,
+      "type": "Presidential Suite",
+      "view": "Mountain",
+      "status": "available",
+      "price": 571,
+      "amenities": [
+        "Mini-bar",
+        "AC",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 197,
+      "type": "Presidential Suite",
+      "view": "Lake",
+      "status": "available",
+      "price": 441,
+      "amenities": [
+        "WiFi",
+        "Mini-bar",
+        "Balcony"
+      ]
+    },
+    {
+      "id": 198,
+      "type": "Garden Room",
+      "view": "Forest",
+      "status": "occupied",
+      "price": 216,
+      "amenities": [
+        "AC",
+        "Jacuzzi",
+        "Balcony"
+      ]
+    },
+    {
+      "id": 199,
+      "type": "Standard Room",
+      "view": "Garden",
+      "status": "occupied",
+      "price": 127,
+      "amenities": [
+        "WiFi",
+        "AC",
+        "Balcony",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 200,
+      "type": "Garden Room",
+      "view": "Garden",
+      "status": "maintenance",
+      "price": 170,
+      "amenities": [
+        "AC",
+        "Mini-bar",
+        "Jacuzzi",
+        "Balcony"
+      ]
+    },
+    {
+      "id": 201,
+      "type": "Presidential Suite",
+      "view": "Mountain",
+      "status": "available",
+      "price": 507,
+      "amenities": [
+        "Mini-bar",
+        "Balcony",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 202,
+      "type": "Standard Room",
+      "view": "Garden",
+      "status": "available",
+      "price": 101,
+      "amenities": [
+        "Mini-bar",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 203,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "available",
+      "price": 270,
+      "amenities": [
+        "WiFi",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 204,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "available",
+      "price": 297,
+      "amenities": [
+        "Mini-bar",
+        "AC"
+      ]
+    },
+    {
+      "id": 205,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "available",
+      "price": 339,
+      "amenities": [
+        "Mini-bar",
+        "AC"
+      ]
+    },
+    {
+      "id": 206,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "occupied",
+      "price": 250,
+      "amenities": [
+        "AC",
+        "WiFi",
+        "Balcony",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 207,
+      "type": "Standard Room",
+      "view": "Garden",
+      "status": "available",
+      "price": 129,
+      "amenities": [
+        "AC",
+        "Mini-bar"
+      ]
+    },
+    {
+      "id": 208,
+      "type": "Garden Room",
+      "view": "Forest",
+      "status": "occupied",
+      "price": 150,
+      "amenities": [
+        "AC",
+        "Balcony",
+        "Jacuzzi",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 209,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "available",
+      "price": 314,
+      "amenities": [
+        "Mini-bar",
+        "Jacuzzi",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 210,
+      "type": "Standard Room",
+      "view": "Courtyard",
+      "status": "occupied",
+      "price": 104,
+      "amenities": [
+        "Jacuzzi",
+        "AC"
+      ]
+    },
+    {
+      "id": 211,
+      "type": "Standard Room",
+      "view": "Garden",
+      "status": "occupied",
+      "price": 172,
+      "amenities": [
+        "Mini-bar",
+        "Balcony",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 212,
+      "type": "Standard Room",
+      "view": "Garden",
+      "status": "occupied",
+      "price": 119,
+      "amenities": [
+        "AC",
+        "Jacuzzi",
+        "Mini-bar"
+      ]
+    },
+    {
+      "id": 213,
+      "type": "Standard Room",
+      "view": "Courtyard",
+      "status": "available",
+      "price": 128,
+      "amenities": [
+        "Mini-bar",
+        "Balcony"
+      ]
+    },
+    {
+      "id": 214,
+      "type": "Garden Room",
+      "view": "Forest",
+      "status": "available",
+      "price": 192,
+      "amenities": [
+        "Mini-bar",
+        "Balcony"
+      ]
+    },
+    {
+      "id": 215,
+      "type": "Garden Room",
+      "view": "Garden",
+      "status": "available",
+      "price": 225,
+      "amenities": [
+        "Jacuzzi",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 216,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "available",
+      "price": 309,
+      "amenities": [
+        "Mini-bar",
+        "AC"
+      ]
+    },
+    {
+      "id": 217,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "available",
+      "price": 257,
+      "amenities": [
+        "Jacuzzi",
+        "Mini-bar",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 218,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "maintenance",
+      "price": 297,
+      "amenities": [
+        "Balcony",
+        "Jacuzzi",
+        "Mini-bar",
+        "AC"
+      ]
+    },
+    {
+      "id": 219,
+      "type": "Standard Room",
+      "view": "Courtyard",
+      "status": "occupied",
+      "price": 114,
+      "amenities": [
+        "Balcony",
+        "AC",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 220,
+      "type": "Garden Room",
+      "view": "Forest",
+      "status": "available",
+      "price": 206,
+      "amenities": [
+        "Jacuzzi",
+        "AC",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 221,
+      "type": "Standard Room",
+      "view": "Garden",
+      "status": "cleaning",
+      "price": 135,
+      "amenities": [
+        "Mini-bar",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 222,
+      "type": "Garden Room",
+      "view": "Garden",
+      "status": "available",
+      "price": 167,
+      "amenities": [
+        "AC",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 223,
+      "type": "Garden Room",
+      "view": "Forest",
+      "status": "available",
+      "price": 180,
+      "amenities": [
+        "Mini-bar",
+        "WiFi",
+        "Jacuzzi",
+        "AC"
+      ]
+    },
+    {
+      "id": 224,
+      "type": "Presidential Suite",
+      "view": "Mountain",
+      "status": "cleaning",
+      "price": 559,
+      "amenities": [
+        "Balcony",
+        "Mini-bar"
+      ]
+    },
+    {
+      "id": 225,
+      "type": "Presidential Suite",
+      "view": "Mountain",
+      "status": "available",
+      "price": 570,
+      "amenities": [
+        "Jacuzzi",
+        "WiFi",
+        "AC"
+      ]
+    },
+    {
+      "id": 226,
+      "type": "Garden Room",
+      "view": "Forest",
+      "status": "available",
+      "price": 194,
+      "amenities": [
+        "Mini-bar",
+        "AC",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 227,
+      "type": "Standard Room",
+      "view": "Courtyard",
+      "status": "occupied",
+      "price": 174,
+      "amenities": [
+        "Mini-bar",
+        "Jacuzzi",
+        "AC",
+        "Balcony"
+      ]
+    },
+    {
+      "id": 228,
+      "type": "Standard Room",
+      "view": "Courtyard",
+      "status": "available",
+      "price": 180,
+      "amenities": [
+        "Balcony",
+        "Jacuzzi",
+        "Mini-bar"
+      ]
+    },
+    {
+      "id": 229,
+      "type": "Garden Room",
+      "view": "Forest",
+      "status": "occupied",
+      "price": 192,
+      "amenities": [
+        "Mini-bar",
+        "AC",
+        "WiFi",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 230,
+      "type": "Standard Room",
+      "view": "Courtyard",
+      "status": "available",
+      "price": 136,
+      "amenities": [
+        "Mini-bar",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 231,
+      "type": "Presidential Suite",
+      "view": "Mountain",
+      "status": "occupied",
+      "price": 501,
+      "amenities": [
+        "Mini-bar",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 232,
+      "type": "Standard Room",
+      "view": "Courtyard",
+      "status": "available",
+      "price": 107,
+      "amenities": [
+        "Jacuzzi",
+        "Mini-bar"
+      ]
+    },
+    {
+      "id": 233,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "available",
+      "price": 302,
+      "amenities": [
+        "Balcony",
+        "Mini-bar"
+      ]
+    },
+    {
+      "id": 234,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "available",
+      "price": 273,
+      "amenities": [
+        "Mini-bar",
+        "WiFi",
+        "AC",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 235,
+      "type": "Garden Room",
+      "view": "Forest",
+      "status": "available",
+      "price": 217,
+      "amenities": [
+        "Jacuzzi",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 236,
+      "type": "Standard Room",
+      "view": "Garden",
+      "status": "maintenance",
+      "price": 155,
+      "amenities": [
+        "AC",
+        "Mini-bar",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 237,
+      "type": "Garden Room",
+      "view": "Garden",
+      "status": "maintenance",
+      "price": 191,
+      "amenities": [
+        "Mini-bar",
+        "AC",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 238,
+      "type": "Presidential Suite",
+      "view": "Lake",
+      "status": "maintenance",
+      "price": 505,
+      "amenities": [
+        "WiFi",
+        "AC",
+        "Mini-bar",
+        "Balcony"
+      ]
+    },
+    {
+      "id": 239,
+      "type": "Presidential Suite",
+      "view": "Lake",
+      "status": "available",
+      "price": 541,
+      "amenities": [
+        "Jacuzzi",
+        "Mini-bar",
+        "WiFi",
+        "AC"
+      ]
+    },
+    {
+      "id": 240,
+      "type": "Presidential Suite",
+      "view": "Mountain",
+      "status": "occupied",
+      "price": 485,
+      "amenities": [
+        "WiFi",
+        "Jacuzzi",
+        "AC",
+        "Mini-bar"
+      ]
+    },
+    {
+      "id": 241,
+      "type": "Standard Room",
+      "view": "Courtyard",
+      "status": "available",
+      "price": 122,
+      "amenities": [
+        "Balcony",
+        "AC"
+      ]
+    },
+    {
+      "id": 242,
+      "type": "Garden Room",
+      "view": "Forest",
+      "status": "available",
+      "price": 167,
+      "amenities": [
+        "AC",
+        "WiFi",
+        "Mini-bar"
+      ]
+    },
+    {
+      "id": 243,
+      "type": "Garden Room",
+      "view": "Garden",
+      "status": "available",
+      "price": 208,
+      "amenities": [
+        "Jacuzzi",
+        "Balcony",
+        "Mini-bar"
+      ]
+    },
+    {
+      "id": 244,
+      "type": "Standard Room",
+      "view": "Garden",
+      "status": "available",
+      "price": 122,
+      "amenities": [
+        "Mini-bar",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 245,
+      "type": "Standard Room",
+      "view": "Garden",
+      "status": "available",
+      "price": 175,
+      "amenities": [
+        "Mini-bar",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 246,
+      "type": "Garden Room",
+      "view": "Forest",
+      "status": "available",
+      "price": 168,
+      "amenities": [
+        "Jacuzzi",
+        "AC"
+      ]
+    },
+    {
+      "id": 247,
+      "type": "Standard Room",
+      "view": "Garden",
+      "status": "available",
+      "price": 129,
+      "amenities": [
+        "WiFi",
+        "AC"
+      ]
+    },
+    {
+      "id": 248,
+      "type": "Presidential Suite",
+      "view": "Lake",
+      "status": "occupied",
+      "price": 449,
+      "amenities": [
+        "Jacuzzi",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 249,
+      "type": "Standard Room",
+      "view": "Courtyard",
+      "status": "occupied",
+      "price": 136,
+      "amenities": [
+        "Jacuzzi",
+        "Mini-bar"
+      ]
+    },
+    {
+      "id": 250,
+      "type": "Presidential Suite",
+      "view": "Mountain",
+      "status": "available",
+      "price": 556,
+      "amenities": [
+        "Mini-bar",
+        "WiFi",
+        "Jacuzzi",
+        "AC"
+      ]
+    },
+    {
+      "id": 251,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "cleaning",
+      "price": 338,
+      "amenities": [
+        "Jacuzzi",
+        "Mini-bar"
+      ]
+    },
+    {
+      "id": 252,
+      "type": "Standard Room",
+      "view": "Garden",
+      "status": "available",
+      "price": 142,
+      "amenities": [
+        "WiFi",
+        "Mini-bar",
+        "AC"
+      ]
+    },
+    {
+      "id": 253,
+      "type": "Garden Room",
+      "view": "Garden",
+      "status": "available",
+      "price": 242,
+      "amenities": [
+        "Jacuzzi",
+        "Mini-bar"
+      ]
+    },
+    {
+      "id": 254,
+      "type": "Presidential Suite",
+      "view": "Lake",
+      "status": "available",
+      "price": 567,
+      "amenities": [
+        "Balcony",
+        "WiFi",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 255,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "occupied",
+      "price": 344,
+      "amenities": [
+        "Balcony",
+        "Jacuzzi",
+        "AC"
+      ]
+    },
+    {
+      "id": 256,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "occupied",
+      "price": 316,
+      "amenities": [
+        "AC",
+        "Mini-bar",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 257,
+      "type": "Presidential Suite",
+      "view": "Lake",
+      "status": "maintenance",
+      "price": 545,
+      "amenities": [
+        "WiFi",
+        "AC"
+      ]
+    },
+    {
+      "id": 258,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "available",
+      "price": 296,
+      "amenities": [
+        "AC",
+        "WiFi",
+        "Jacuzzi",
+        "Balcony"
+      ]
+    },
+    {
+      "id": 259,
+      "type": "Standard Room",
+      "view": "Garden",
+      "status": "available",
+      "price": 133,
+      "amenities": [
+        "AC",
+        "Jacuzzi",
+        "Mini-bar"
+      ]
+    },
+    {
+      "id": 260,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "occupied",
+      "price": 381,
+      "amenities": [
+        "Jacuzzi",
+        "WiFi",
+        "AC"
+      ]
+    },
+    {
+      "id": 261,
+      "type": "Standard Room",
+      "view": "Garden",
+      "status": "available",
+      "price": 178,
+      "amenities": [
+        "Balcony",
+        "AC",
+        "Mini-bar",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 262,
+      "type": "Presidential Suite",
+      "view": "Lake",
+      "status": "available",
+      "price": 451,
+      "amenities": [
+        "Mini-bar",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 263,
+      "type": "Garden Room",
+      "view": "Forest",
+      "status": "available",
+      "price": 230,
+      "amenities": [
+        "Balcony",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 264,
+      "type": "Garden Room",
+      "view": "Forest",
+      "status": "available",
+      "price": 229,
+      "amenities": [
+        "Mini-bar",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 265,
+      "type": "Presidential Suite",
+      "view": "Mountain",
+      "status": "available",
+      "price": 582,
+      "amenities": [
+        "Mini-bar",
+        "AC",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 266,
+      "type": "Presidential Suite",
+      "view": "Lake",
+      "status": "occupied",
+      "price": 556,
+      "amenities": [
+        "AC",
+        "Balcony",
+        "Mini-bar",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 267,
+      "type": "Garden Room",
+      "view": "Garden",
+      "status": "maintenance",
+      "price": 190,
+      "amenities": [
+        "Balcony",
+        "Jacuzzi",
+        "Mini-bar"
+      ]
+    },
+    {
+      "id": 268,
+      "type": "Standard Room",
+      "view": "Garden",
+      "status": "available",
+      "price": 161,
+      "amenities": [
+        "WiFi",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 269,
+      "type": "Presidential Suite",
+      "view": "Mountain",
+      "status": "available",
+      "price": 589,
+      "amenities": [
+        "WiFi",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 270,
+      "type": "Standard Room",
+      "view": "Courtyard",
+      "status": "occupied",
+      "price": 177,
+      "amenities": [
+        "Balcony",
+        "WiFi",
+        "Mini-bar",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 271,
+      "type": "Standard Room",
+      "view": "Garden",
+      "status": "available",
+      "price": 158,
+      "amenities": [
+        "Balcony",
+        "WiFi",
+        "Mini-bar",
+        "AC"
+      ]
+    },
+    {
+      "id": 272,
+      "type": "Garden Room",
+      "view": "Forest",
+      "status": "available",
+      "price": 236,
+      "amenities": [
+        "Balcony",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 273,
+      "type": "Presidential Suite",
+      "view": "Mountain",
+      "status": "available",
+      "price": 448,
+      "amenities": [
+        "WiFi",
+        "AC"
+      ]
+    },
+    {
+      "id": 274,
+      "type": "Garden Room",
+      "view": "Forest",
+      "status": "available",
+      "price": 180,
+      "amenities": [
+        "WiFi",
+        "AC",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 275,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "available",
+      "price": 399,
+      "amenities": [
+        "Mini-bar",
+        "Jacuzzi",
+        "Balcony",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 276,
+      "type": "Presidential Suite",
+      "view": "Mountain",
+      "status": "available",
+      "price": 552,
+      "amenities": [
+        "WiFi",
+        "Mini-bar",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 277,
+      "type": "Standard Room",
+      "view": "Courtyard",
+      "status": "occupied",
+      "price": 113,
+      "amenities": [
+        "Balcony",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 278,
+      "type": "Standard Room",
+      "view": "Garden",
+      "status": "available",
+      "price": 143,
+      "amenities": [
+        "Mini-bar",
+        "Balcony",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 279,
+      "type": "Presidential Suite",
+      "view": "Mountain",
+      "status": "available",
+      "price": 521,
+      "amenities": [
+        "Mini-bar",
+        "Balcony",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 280,
+      "type": "Standard Room",
+      "view": "Courtyard",
+      "status": "available",
+      "price": 135,
+      "amenities": [
+        "Balcony",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 281,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "available",
+      "price": 349,
+      "amenities": [
+        "Mini-bar",
+        "Balcony"
+      ]
+    },
+    {
+      "id": 282,
+      "type": "Presidential Suite",
+      "view": "Lake",
+      "status": "available",
+      "price": 538,
+      "amenities": [
+        "WiFi",
+        "Balcony",
+        "AC"
+      ]
+    },
+    {
+      "id": 283,
+      "type": "Presidential Suite",
+      "view": "Lake",
+      "status": "available",
+      "price": 444,
+      "amenities": [
+        "WiFi",
+        "Balcony",
+        "AC",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 284,
+      "type": "Standard Room",
+      "view": "Courtyard",
+      "status": "available",
+      "price": 126,
+      "amenities": [
+        "WiFi",
+        "Mini-bar"
+      ]
+    },
+    {
+      "id": 285,
+      "type": "Presidential Suite",
+      "view": "Lake",
+      "status": "available",
+      "price": 468,
+      "amenities": [
+        "AC",
+        "Balcony",
+        "Mini-bar",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 286,
+      "type": "Garden Room",
+      "view": "Forest",
+      "status": "occupied",
+      "price": 234,
+      "amenities": [
+        "AC",
+        "Mini-bar",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 287,
+      "type": "Garden Room",
+      "view": "Garden",
+      "status": "available",
+      "price": 211,
+      "amenities": [
+        "Mini-bar",
+        "Jacuzzi",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 288,
+      "type": "Standard Room",
+      "view": "Courtyard",
+      "status": "maintenance",
+      "price": 176,
+      "amenities": [
+        "AC",
+        "Balcony",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 289,
+      "type": "Presidential Suite",
+      "view": "Mountain",
+      "status": "available",
+      "price": 534,
+      "amenities": [
+        "Mini-bar",
+        "WiFi",
+        "AC",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 290,
+      "type": "Presidential Suite",
+      "view": "Lake",
+      "status": "available",
+      "price": 577,
+      "amenities": [
+        "AC",
+        "WiFi",
+        "Mini-bar",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 291,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "occupied",
+      "price": 345,
+      "amenities": [
+        "Balcony",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 292,
+      "type": "Standard Room",
+      "view": "Courtyard",
+      "status": "available",
+      "price": 143,
+      "amenities": [
+        "Jacuzzi",
+        "AC",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 293,
+      "type": "Garden Room",
+      "view": "Forest",
+      "status": "occupied",
+      "price": 177,
+      "amenities": [
+        "AC",
+        "Mini-bar",
+        "Balcony",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 294,
+      "type": "Standard Room",
+      "view": "Garden",
+      "status": "available",
+      "price": 105,
+      "amenities": [
+        "Balcony",
+        "WiFi",
+        "Mini-bar",
+        "AC"
+      ]
+    },
+    {
+      "id": 295,
+      "type": "Garden Room",
+      "view": "Forest",
+      "status": "cleaning",
+      "price": 202,
+      "amenities": [
+        "Balcony",
+        "AC",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 296,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "occupied",
+      "price": 303,
+      "amenities": [
+        "WiFi",
+        "Balcony",
+        "AC",
+        "Jacuzzi"
+      ]
+    },
+    {
+      "id": 297,
+      "type": "Garden Room",
+      "view": "Garden",
+      "status": "occupied",
+      "price": 198,
+      "amenities": [
+        "AC",
+        "WiFi"
+      ]
+    },
+    {
+      "id": 298,
+      "type": "Lakeside Bungalow",
+      "view": "Lake",
+      "status": "occupied",
+      "price": 332,
+      "amenities": [
+        "Balcony",
+        "Mini-bar",
+        "AC"
+      ]
+    },
+    {
+      "id": 299,
+      "type": "Presidential Suite",
+      "view": "Lake",
+      "status": "occupied",
+      "price": 444,
+      "amenities": [
+        "WiFi",
+        "Mini-bar"
+      ]
+    },
+    {
+      "id": 300,
+      "type": "Presidential Suite",
+      "view": "Mountain",
+      "status": "occupied",
+      "price": 522,
+      "amenities": [
+        "WiFi",
+        "Balcony",
+        "Jacuzzi",
+        "AC"
+      ]
+    }
+  ],
+  "services": [
+    "Spa",
+    "Swimming Pool",
+    "Kayaking",
+    "Cinema",
+    "Gym"
+  ],
+  "restaurants": [
+    "The Lakeview Grill",
+    "Traditional Hut"
+  ]
+}
