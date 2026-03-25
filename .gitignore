@@ -4,3 +4,5 @@ venv/
 ai-engine/venv/
 .env
 .env.local
+check_in.json
+bookings.csv

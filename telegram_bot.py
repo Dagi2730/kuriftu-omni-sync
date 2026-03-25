@@ -1,68 +1,95 @@
 import os
 import logging
-import csv
-from datetime import datetime
+import json
+from dotenv import load_dotenv
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
+
+# Import your custom logic
 from main_controller import get_omni_sync_response
 
-# --- ROBUST ENV LOADER ---
-# This ensures it finds the .env file in the root folder
+# --- 1. CONFIG & UTILS ---
+load_dotenv() # Crucial: Loads your .env file
+logging.basicConfig(level=logging.INFO)
+
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-ENV_PATH = os.path.join(BASE_DIR, ".env")
+CHECKIN_FILE = os.path.join(BASE_DIR, "check_in.json")
 
-try:
-    with open(ENV_PATH, "r") as f:
-        for line in f:
-            line = line.strip()
-            if "=" in line and not line.startswith("#"):
-                key, value = line.split("=", 1)
-                os.environ[key] = value.strip()
+def get_guest_data(telegram_id):
+    """Checks if the user is already registered in a room"""
+    if os.path.exists(CHECKIN_FILE):
+        with open(CHECKIN_FILE, 'r') as f:
+            try:
+                data = json.load(f)
+                return data.get(str(telegram_id))
+            except: return None
+    return None
+
+def save_guest_data(telegram_id, room, last_name):
+    """Saves new registration to the JSON file"""
+    data = {}
+    if os.path.exists(CHECKIN_FILE):
+        with open(CHECKIN_FILE, 'r') as f:
+            try: data = json.load(f)
+            except: data = {}
     
-    TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-    GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-    
-    if TELEGRAM_TOKEN:
-        print(f"✅ Integration Ready: Token loaded (Starts with {TELEGRAM_TOKEN[:5]})")
-except Exception as e:
-    print(f"❌ Critical Error loading .env: {e}")
+    data[str(telegram_id)] = {"room": room, "name": last_name}
+    with open(CHECKIN_FILE, 'w') as f:
+        json.dump(data, f, indent=4)
 
-# Setup Logging
-logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
-
-def log_booking_lead(user_name, user_id, query):
-    file_path = os.path.join(BASE_DIR, 'bookings.csv')
-    file_exists = os.path.isfile(file_path)
-    with open(file_path, 'a', newline='', encoding='utf-8') as f:
-        writer = csv.writer(f)
-        if not file_exists:
-            writer.writerow(['Date', 'User Name', 'Telegram ID', 'Interest'])
-        writer.writerow([datetime.now().strftime("%Y-%m-%d %H:%M"), user_name, user_id, query])
+# --- 2. COMMAND HANDLERS ---
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    welcome_text = "🏨 *Welcome to Kuriftu Omni-Sync!* 🇪🇹\n\nI am your AI Concierge. How can I help you find a room today?"
-    await update.message.reply_text(welcome_text, parse_mode='Markdown')
+    user_name = update.message.from_user.first_name
+    await update.message.reply_text(
+        f"Selam {user_name}! 🏨 Welcome to Kuriftu Resort & Spa.\n\n"
+        "To provide secure service, please register your room.\n"
+        "Format: [Room Number], [Last Name]\n"
+        "Example: 302, Andargachew"
+    )
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_query = update.message.text
-    user = update.message.from_user
-    log_booking_lead(user.full_name, user.id, user_query)
+    telegram_id = update.message.from_user.id
     
+    # Check if user is registered
+    guest_info = get_guest_data(telegram_id)
+
+    # A. REGISTRATION LOGIC
+    if not guest_info:
+        if "," in user_query:
+            try:
+                room_num, last_name = [x.strip() for x in user_query.split(",")]
+                save_guest_data(telegram_id, room_num, last_name)
+                await update.message.reply_text(f"✅ Secure Sync Established! Welcome to Room {room_num}, {last_name}. How can I assist you today?")
+                return
+            except: pass
+        
+        await update.message.reply_text("🏨 Please register first. Send your: Room Number, Last Name (e.g., 302, Jhon)")
+        return
+
+    # B. AI PROCESSING
     await update.message.reply_chat_action(action="typing")
-    
     try:
-        response = get_omni_sync_response(user_query)
+        # We pass the Room Number as the 'Identity' to the controller
+        target_identity = f"Guest in Room {guest_info['room']}"
+        response = get_omni_sync_response(user_query, target_identity)
         await update.message.reply_text(response)
     except Exception as e:
-        print(f"Integration Error: {e}")
-        await update.message.reply_text("I'm having a bit of trouble reaching the concierge. Please try again in a moment!")
+        print(f"❌ BOT ERROR: {e}")
+        await update.message.reply_text("🏨 Kuriftu: System syncing... Please try again in a moment!")
 
 if __name__ == '__main__':
-    if not TELEGRAM_TOKEN:
-        print("❌ ABORT: No TELEGRAM_TOKEN found. Check .env file.")
-    else:
-        app = ApplicationBuilder().token(TELEGRAM_TOKEN).build()
-        app.add_handler(CommandHandler("start", start))
-        app.add_handler(MessageHandler(filters.TEXT & (~filters.COMMAND), handle_message))
-        print("🚀 Kuriftu Bot is LIVE & Ready for Team Integration!")
-        app.run_polling()
+    print("🔍 Initializing Kuriftu Omni-Sync...")
+    TOKEN = os.getenv("TELEGRAM_TOKEN")
+    
+    if not TOKEN:
+        print("❌ ERROR: TELEGRAM_TOKEN not found!")
+        sys.exit(1)
+
+    app = ApplicationBuilder().token(TOKEN).build()
+    app.add_handler(CommandHandler("start", start))
+    app.add_handler(MessageHandler(filters.TEXT & (~filters.COMMAND), handle_message))
+    
+    print("🚀 KURIFTU SECURE OMNI-SYNC IS LIVE!")
+    app.run_polling(drop_pending_updates=True)

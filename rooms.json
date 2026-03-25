@@ -1,0 +1,18 @@
+{
+  "rooms": [
+    {"id": 101, "name": "Standard Courtyard", "price": 136, "view": "Garden", "description": "Cozy room with traditional Ethiopian art and queen bed."},
+    {"id": 102, "name": "Standard Twin", "price": 145, "view": "Courtyard", "description": "Two separate beds, ideal for friends or colleagues."},
+    {"id": 201, "name": "Deluxe Forest Suite", "price": 190, "view": "Forest", "description": "Quiet suite surrounded by greenery with a private balcony."},
+    {"id": 202, "name": "Executive Lake-View", "price": 220, "view": "Lake Tana", "description": "High-floor room with panoramic water views and workspace."},
+    {"id": 301, "name": "Presidential Villa", "price": 500, "view": "Lake View", "description": "Luxurious private villa with a panoramic view of Lake Tana, private pool, and premium traditional decor."},
+    {"id": 302, "name": "Honeymoon Special", "price": 350, "view": "Sunset Lake", "description": "Romantic decor, outdoor shower, and complimentary wine."}
+  ],
+  "services": [
+    {"id": "S1", "name": "The Jungle Spa", "hours": "9:00 AM - 8:00 PM", "description": "Swedish massage, steam, and sauna near the North Wing."},
+    {"id": "S2", "name": "Main Restaurant", "hours": "6:00 AM - 11:00 PM", "description": "International buffet and Ethiopian coffee ceremony."},
+    {"id": "S3", "name": "Water Park", "hours": "10:00 AM - 6:00 PM", "description": "East Africa's largest water park. Free for hotel guests."},
+    {"id": "S4", "name": "Gym & Fitness", "hours": "24 Hours", "description": "Modern equipment and personal trainers available by request."},
+    {"id": "S5", "name": "Conference Hall", "hours": "8:00 AM - 6:00 PM", "description": "High-speed Wi-Fi and catering for corporate events."},
+    {"id": "S6", "name": "Gift Shop", "hours": "10:00 AM - 9:00 PM", "description": "Local Ethiopian crafts, jewelry, and travel essentials."}
+  ]
+}
